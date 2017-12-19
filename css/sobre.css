@@ -1,0 +1,28 @@
+#intro-about {
+  background-image: url("../img/bg-sobre.jpg");
+}
+
+#mission-about {
+  padding-top: 60px;
+}
+
+#mission-about p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+#mission-about ul {
+  list-style: square;
+  list-style-position: inside;
+}
+
+#mission-about ul li {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#bikcraft-team {
+  padding-top: 40px;
+}

@@ -1,0 +1,84 @@
+#intro-contact {
+  background-image: url("../img/bg-contato.jpg");
+}
+
+#contact {
+  padding: 48px 0;
+  /*background: #000;*/
+}
+
+#contact-form {
+  padding-right: 60px;
+}
+
+#contact-form label {
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+#contact-form input,#contact-form textarea {
+  display: block;
+  width: 100%;
+  border: 3px solid #fdc64a;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+#contact-form textarea {
+  height: 120px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+#contact-form button:hover {
+  background: #fdc64a;
+  color: #fff;
+}
+
+#contact-data {
+  margin-top: 5px;
+  padding: 4px;
+  border-style: solid;
+  /*border-color: #fdc64a;*/
+  border-color: #cacaca;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+#contact-data h3 {
+  text-transform: uppercase;
+  color: #fdc64a;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 8px 0;
+}
+
+#contact-data span {
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#contact-data ul li {
+  display: inline-block;
+}
+
+#contact-data ul li a {
+  display: block;
+  font-size: 36px;
+  color: #fdc64a;
+}
+
+#contact-data ul li a:hover {
+  color: #000;
+}
+
+#contact-map {
+  margin-bottom: 60px;
+}

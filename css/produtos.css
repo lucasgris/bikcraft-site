@@ -1,0 +1,85 @@
+#intro-product {
+  background-image: url("../img/bg-produtos.jpg");
+  margin-bottom: 60px;
+}
+
+#products {
+  margin: 60px 0;
+}
+
+.separator {
+  padding: 12px 0;
+}
+
+.separator:before  {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background: #000;
+  margin: 10px auto;
+}
+
+.product-item h2 {
+  font-family: 'Bitter', serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: .1em;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -46px;
+}
+
+.product-item h2:after, .product-item h2:before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background: #fff;
+  margin: 10px auto;
+}
+
+.product-icon {
+  background: #000;
+  padding: 70px 0;
+}
+
+.product-icon img {
+  margin: 0 auto;
+}
+
+.product-info {
+  background: #000;
+}
+
+.product-info p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 20px 30px;
+  height: 180px;
+}
+
+.product-info ul li {
+  background: #fdc64a;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.product-info ul li:nth-child(1), .product-info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+.product-info ul li:nth-child(even) {
+  margin-left: 2px;
+}
